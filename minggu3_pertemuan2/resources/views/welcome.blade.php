@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Shovi Imany Wardiana
                 </div>
 
                 <div class="links">
