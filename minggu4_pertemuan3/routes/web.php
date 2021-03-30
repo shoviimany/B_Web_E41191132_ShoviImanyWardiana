@@ -15,8 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::group(['namespace' => 'Frontend'], function()
+Route::group(['namespace' => 'Backend'], function()
 {
-   Route::resource('home','HomeController');
-
+    Route::resource('dashboard', 'DashboardController');
 });
