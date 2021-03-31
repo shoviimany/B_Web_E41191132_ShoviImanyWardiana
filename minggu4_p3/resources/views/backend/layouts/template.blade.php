@@ -25,15 +25,15 @@
   <!-- easy pie chart-->
   <link href="{{ asset('backend/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css') }}" rel="stylesheet" type="text/css" media="screen" />
   <!-- owl carousel -->
-  <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+  <link rel="stylesheet" href="{{ asset('backend/css/owl.carousel.css') }}" type="text/css">
   <link href="{{ asset('backend/css/jquery-jvectormap-1.2.2.css') }}" rel="stylesheet">
   <!-- Custom styles -->
-  <link rel="stylesheet" href="css/fullcalendar.css">
-  <link href="{{ asset('backend/css/widgets.css') }}" rel="stylesheet">
-  <link href="{{ asset('backend/css/style.css') }}" rel="stylesheet">
-  <link href="{{ asset('backend/css/style-responsive.css') }" rel="stylesheet" />
-  <link href="{{ asset('backend/css/xcharts.min.css') }}" rel=" stylesheet">
-  <link href="{{ asset('backend/css/jquery-ui-1.10.4.min.css') }}" rel="stylesheet">
+  <link rel="stylesheet" href="{{ asset('backend/css/fullcalendar.css') }}">
+  <link href="{{ asset('backend/css/widgets.css')}}" rel="stylesheet">
+  <link href="{{ asset('backend/css/style.css')}}" rel="stylesheet">
+  <link href="{{ asset('backend/css/style-responsive.css')}}" rel="stylesheet" />
+  <link href="{{ asset('backend/css/xcharts.min.css')}}" rel=" stylesheet">
+  <link href="{{ asset('backend/css/jquery-ui-1.10.4.min.css')}}" rel="stylesheet">
   <!-- =======================================================
     Theme Name: NiceAdmin
     Theme URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
@@ -309,10 +309,9 @@
     </header>
     <!--header end-->
 
-    @include('backend/layouts.sidebar')   
+    @include('backend/layouts.sidebar')
 
     @yield('content')
-
   </section>
   <!-- container section start -->
 
